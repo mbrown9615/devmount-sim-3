@@ -1,0 +1,38 @@
+.main-home {
+    background-color: rgb(160, 160, 160);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.alt {
+    display:flex;
+    width: 800px;
+    height: 100vh;
+    padding: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home-profile,.profile-about,.friendlist {
+    background-color: rgb(235, 235, 235);
+    border-radius: 2px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.137), 0 1px 2px 0 rgba(0, 0, 0, 0.219);
+}
+
+.home-profile {
+    height: 125px;
+    width: 280px;
+}
+
+.profile-about {
+    width: 450px;
+    height: 125px;
+}
+
+.friendlist {
+    width: 760px;
+    height: 600px;
+}

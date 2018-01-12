@@ -1,0 +1,56 @@
+.auth-main {
+    /*23F
+    */
+    background-image: linear-gradient(180deg, rgb(101, 43, 177), rgb(149, 63, 156) 40%, rgb(221, 180, 65) 73%, rgb(255, 255, 49));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-box {
+    width: 500px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 14px 40px 0 rgba(39, 39, 39, 0.356), 0 10px 10px rgba(0, 0, 0, 0.411);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(247, 247, 247);
+    font-size: 100px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.auth-box img {
+    width: 120px;
+    margin-bottom: 50px;
+    margin-top: -20px;
+}
+
+.auth-box button {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(54, 54, 54);
+    color: rgb(247, 247, 247);
+    border-radius: 5px;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.fade-in {
+    animation-name: fade;
+    animation-duration: 5s;
+    animation-delay: .5s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
